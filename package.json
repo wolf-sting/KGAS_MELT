@@ -1,0 +1,23 @@
+{
+  "name": "melt_kgas",
+  "version": "1.0.0",
+  "description": "",
+  "main": "melt_kgas.js",
+  "scripts": {
+    "test": "nodemon melt_kgas.js",
+    "start": "node melt_kgas.js",
+    "pm2":"pm2 start melt_kgas.js"
+   
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "crypto": "^1.0.1",
+    "express": "^4.18.2",
+    "multer": "^1.4.5-lts.1",
+    "nodemailer": "^6.9.3",
+    "nodemon": "^3.0.1",
+    "zip-local": "^0.3.5"
+  }
+}
